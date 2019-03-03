@@ -65,6 +65,4 @@ Please refer Code book for translations
     
 ### 9) finaldata_GCD_Course_Project.txt, when loaded to a dataframe should have 67 variables and 36 observations
 
-  <li> ID: Subject_Activity<li>
-  <li> Variables: as provided in file <li>
-  <li> Data: mean value of each variable for each subject and activity <li>
+  <li> ID: Subject_Activity<li><li> Variables: as provided in file<li><li> Data: mean value of each variable for each subject and activity <li>
