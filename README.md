@@ -36,12 +36,12 @@ masterdata <- rbind(train_data, test_data)
 
 ### 6) Activity lables file is used to manually rename activity labels
 
-masterdata$Activity[masterdata$Activity == 1] <- "WALKING"
-masterdata$Activity[masterdata$Activity == 2] <- "WALKING_UPSTAIRS"
-masterdata$Activity[masterdata$Activity == 3] <- "WALKING_DOWNSTAIRS"
-masterdata$Activity[masterdata$Activity == 4] <- "SITTING"
-masterdata$Activity[masterdata$Activity == 5] <- "STANDING"
-masterdata$Activity[masterdata$Activity == 6] <- "LAYING"
+<li>masterdata$Activity[masterdata$Activity == 1] <- "WALKING"</li>
+<li>masterdata$Activity[masterdata$Activity == 2] <- "WALKING_UPSTAIRS"</li>
+<li>masterdata$Activity[masterdata$Activity == 3] <- "WALKING_DOWNSTAIRS"</li>
+<li>masterdata$Activity[masterdata$Activity == 4] <- "SITTING"</li>
+<li>masterdata$Activity[masterdata$Activity == 5] <- "STANDING"</li>
+<li>masterdata$Activity[masterdata$Activity == 6] <- "LAYING"</li>
 
 ### 7) Descriptive variable names are used to renamed the variable names in the masterdata dataframe
 
