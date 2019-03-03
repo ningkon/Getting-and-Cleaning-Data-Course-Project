@@ -62,3 +62,9 @@ Please refer Code book for translations
 6. Generate output file as text doc:
     if(!file.exists("./Coursera/data")){dir.create("./Coursera/data")}
     write.table(finaldata, file = "./Coursera/data/finaldata_GCD_Course_Project.txt", row.names = FALSE, sep = ",")
+    
+### 9) finaldata_GCD_Course_Project.txt, when loaded to a dataframe should have 67 variables and 36 observations
+
+  ID: Subject_Activity
+  Variables: as provided in file
+  Data: mean value of each variable for each subject and activity
