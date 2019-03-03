@@ -2,9 +2,9 @@
 
 ## Hello 
 
-## run_analysis.R is required script to generate final output file
+### run_analysis.R is required script to generate final output file: "finaldata_GCD_Course_Project.txt"
  
-### Brief comment on the method followed in the script file:
+### Method followed in the script file is as described below:
 
 ### 1) Test and Training data sets are first loaded from the UCI HAR Dataset folder
 
