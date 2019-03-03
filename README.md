@@ -1,10 +1,7 @@
 # Getting-and-Cleaning-Data-Course-Project
 
-## Hello 
 
 ### run_analysis.R is required script to generate final output file: "finaldata_GCD_Course_Project.txt"
- 
-### Method followed in the script file is as described below:
 
 ### 1) Test and Training data sets are first loaded from the UCI HAR Dataset folder
 
@@ -62,7 +59,4 @@ Please refer Code book for translations
 6. Generate output file as text doc:
     if(!file.exists("./Coursera/data")){dir.create("./Coursera/data")}
     write.table(finaldata, file = "./Coursera/data/finaldata_GCD_Course_Project.txt", row.names = FALSE, sep = ",")
-    
-### 9) finaldata_GCD_Course_Project.txt, when loaded to a dataframe should have 67 variables and 36 observations
-
-  <li> ID: Subject_Activity</li> <li> Variables: as provided in file</li><li> Data: mean value of each variable for each subject and activity </li>
+  
