@@ -2,8 +2,8 @@
 
 ## Hello 
 
-## run_analysis is the required script to produce the final data output
-
+## run_analysis.R is required script to generate final output file
+ 
 ### Brief comment on the method followed in the script file:
 
 ### 1) Test and Training data sets are first loaded from the UCI HAR Dataset folder
