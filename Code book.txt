@@ -1,0 +1,5 @@
+1. Camel case is used for letters: T = t, F = f
+
+2. Special characters are removed and replaced with literal words: Mean = mean(), Std = std()
+
+3. "-" has been removed and replaced with "" for cleaner data
